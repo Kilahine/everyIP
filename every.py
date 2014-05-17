@@ -10,23 +10,23 @@ chainea =""
 chaineb =""
 chainec =""
 #for a in range MAX_IP:
-for a in range(0,255):
+for a in range(0,256):
 	chaine=""
 	#print str(a) +"."
 	chainea=str(a) +"."
 	a=a+1
 #	for b in range MAX_IP:
-	for b in range (0,255):
+	for b in range (0,256):
 		#print str(b)+"."
 		chaineb=chainea + str(b) +"."
 		b=b+1
 #		for c in range MAX_IP:
-		for c in range (0,255):
+		for c in range (0,256):
 			#print str(c)+"."
 			chainec=chaineb+str(c)+"."
 			c=c+1
 #			for d in range MAX_IP:
-			for d in range (0,255):
+			for d in range (0,256):
 				#print str(d) +"\n"
 				#chaine=chaine+str(d)
 				print chainec + str(d)
